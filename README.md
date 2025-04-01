@@ -1,1 +1,1 @@
-CUNY websites redesign project for CISC3650
+# CUNY websites redesign for CISC3650
