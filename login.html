@@ -9,9 +9,7 @@
 <body>
     <div class="header1">
     </div>
-    <div>
-        <img src="cuny-logo.jpg" class="logo">
-    </div>
+    <img src="cuny-logo.jpg" class="logo">
     <div class="cunyLogin"><h1>CUNY Login</h1></div>
     <div class="header2">        
         <h2>Welcome to the CUNY Login Page</h2>
@@ -25,7 +23,8 @@
         <input type="password" id="password" name="password" placeholder="">
         <div hidden class="error">Please make sure to enter the correct password</div>
         <br>
-        <button class="login" onClick="login()">Log in</button>
+        <button id="login" class="login" onClick="login()">Log in</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

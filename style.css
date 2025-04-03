@@ -1,11 +1,14 @@
 /* Header styles */
+div{
+    text-align: center;
+}
 .header1 {
-    background-color: #0055a5;
-    height: 10px;
+    background-color: blue;
+    height: 40px;
 }
 
 .cunyLogin h1 {
-    color: #0055a5;
+    color: blue;
     margin-top: 20px;
 }
 
@@ -16,7 +19,8 @@
 /* Logo styles */
 .logo {
     width: 150px;
-    margin: 20px auto;
+    margin: 10px; 
+
 }
 
 /* Form styles */
@@ -62,7 +66,7 @@ button.login:hover {
 /* Error message styles */
 .error {
     color: red;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -10px;
     margin-bottom: 10px;
     display: none;

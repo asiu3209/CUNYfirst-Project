@@ -1,0 +1,14 @@
+.header1{
+    background-color: blue;
+    height: 40px;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-color: #f4f4f4;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+}
