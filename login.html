@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header1"></div>
-    <div class="cunyLogo"></div>
+    <div class="header1">
+    </div>
+    <div>
+        <img src="cuny-logo.jpg" class="logo">
+    </div>
     <div class="cunyLogin"><h1>CUNY Login</h1></div>
     <div class="header2">        
         <h2>Welcome to the CUNY Login Page</h2>
@@ -16,9 +19,11 @@
     </div>
     <div class="header3">
         <h3>Username</h1>
-        <input type="text" id="username" name="username" placeholder="@login.cuny.edu">
+        <input type="text" id="username" name="username" value="@login.cuny.edu">
+        <div hidden class="error">Please make sure you enter a valid username</div>
         <h3>Password</h1>
         <input type="password" id="password" name="password" placeholder="">
+        <div hidden class="error">Please make sure to enter the correct password</div>
         <br>
         <button class="login" onClick="login()">Log in</button>
     </div>
