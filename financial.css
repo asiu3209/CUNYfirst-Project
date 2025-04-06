@@ -1,0 +1,20 @@
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    position: fixed;
+}
+.item{
+    border:thick double #ccc;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.item span{
+    margin-left: 5px;
+    font-size: 14px;
+}
