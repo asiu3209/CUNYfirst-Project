@@ -4,17 +4,47 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f4f4f4;
-    position: fixed;
+    background-color: lightgray;
+    gap: 50px;
+    width:80%;
+    margin:auto;
 }
 .item{
-    border:thick double #ccc;
+    border:thick double gray;
     padding: 10px 15px;
     font-size: 18px;
-    font-weight: bold;
     transition: background-color 0.3s ease;
+    top:0;
+    width:100%;
 }
 .item span{
     margin-left: 5px;
     font-size: 14px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 3px solid gray;
+}
+.line-item{
+    display:flex;
+    justify-content: space-between;
+    padding:8px 0;
+    border-bottom: 3px solid gray;
+}
+.item button{
+    background-color: green;
+    border: 2px black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    width:100%;
 }
