@@ -29,8 +29,8 @@
     border-radius: 5px;
 } */
 .logo {
-    width: auto;
-    height: 30px;
+    width: 150px;
+    height: 40px;
 }
 .top{
     display:flex;
