@@ -79,3 +79,13 @@ header {
 .score.great { color: darkgreen; }
 .score.okay { color: orange; }
 .score.bad { color: red; }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    color: white !important;
+}
