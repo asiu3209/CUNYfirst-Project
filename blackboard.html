@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="blackboardstyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackboard UI</title>
+  <link rel="stylesheet" href="blackboardstyle.css" />
 </head>
+
 <body>
-    <div class="top">
-        <img src="cuny-logo.jpg" class="logo">
-        <div class="header1"></div>
-    </div>
+  <div class="header1">
+     <img src="cuny-logo.jpg" class="logo" alt="CUNY Logo" />
+  </div>
+
+  <div class="topbar">
+   
     <div class="navbar">
-        <a class="link" href = "#">Feed</a>
-        <a class="link" href = "#">Blackboard</a>
-        <a class="link" href = "#">Cuny First</a>
-        <a class="link" href = "#">Grades</a>
-        <a class="link" href = "login.html">Sign Out</a>
+      <a class="link" href="#">Feed</a>
+      <a class="link" href="cunyFirst.html">Cuny First</a>
+      <a class="link" href="grade.html">Grades</a>
+      <a class="link" href="login.html">Sign Out</a>
     </div>
+  </div>
+
+  <!-- Main Course Feed -->
+  <main class="container">
+    <h2 class="section-title">📚 Your Courses</h2>
+    <div class="course-feed-grid">
+      <div class="course-card">
+        <h3>CISC 3650 - Human Computer Interaction</h3>
+        <p>Spring 2025</p>
+        <a href="#">View Course</a>
+      </div>
+      <div class="course-card">
+        <h3>CISC 3410 - Artificial Intelligence</h3>
+        <p>Spring 2025</p>
+        <a href="#">View Course</a>
+      </div>
+      <div class="course-card">
+        <h3>CISC 3810 - Database Systems</h3>
+        <p>Spring 2025</p>
+        <a href="#">View Course</a>
+      </div>
+      <div class="course-card">
+        <h3>MATH 1201 - Calculus I</h3>
+        <p>Spring 2025</p>
+        <a href="#">View Course</a>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
