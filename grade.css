@@ -79,3 +79,32 @@ header {
 .score.great { color: darkgreen; }
 .score.okay { color: orange; }
 .score.bad { color: red; }
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.navbar .link {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .link:hover {
+    color: #0d6efd;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+
+
+
