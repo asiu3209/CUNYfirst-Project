@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade Overview</title>
+  <link rel="stylesheet" href="bbstyle.css" />
+  <style>
+    .course-card {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    .course-description {
+      margin-top: 10px;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .assignment-list {
+      margin-top: 10px;
+    }
+    .assignment {
+      margin: 4px 0;
+    }
+    .grade-block {
+      margin-top: 10px;
+      background-color: #f0f0f0;
+      padding: 8px;
+      border-radius: 6px;
+    }
+    .grade-table {
+      width: 100%;
+      margin-top: 10px;
+      border-collapse: collapse;
+    }
+    .grade-table th, .grade-table td {
+      border: 1px solid #ccc;
+      padding: 6px;
+      text-align: center;
+    }
+    .grade-table th {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header1">
+    <img src="cuny-logo.jpg" class="logo" alt="CUNY Logo" />
+  </div>
+
+  <div class="topbar">
+    <div class="navbar">
+      <a class="link" href="#">Feed</a>
+      <a class="link" href="cunyFirst.html">Cuny First</a>
+      <a class="link" href="grade.html">Grades</a>
+      <a class="link" href="login.html">Sign Out</a>
+    </div>
+  </div>
+
+  <main class="container">
+    <h2 class="section-title"> Grade Summary</h2>
+
+    <div class="course-feed-grid">
+      <div class="course-card">
+        <h3>CISC 3650 - Human Computer Interaction</h3>
+        <p>Spring 2025</p>
+        <div class="course-description">
+          <div class="grade-block">Running Average: 89%</div>
+          <table class="grade-table">
+            <tr><th>Component</th><th>Weight</th><th>Average</th></tr>
+            <tr><td>Homework</td><td>30%</td><td>92%</td></tr>
+            <tr><td>Quizzes</td><td>20%</td><td>88%</td></tr>
+            <tr><td>Midterm</td><td>25%</td><td>84%</td></tr>
+            <tr><td>Final</td><td>25%</td><td>87%</td></tr>
+          </table>
+          <div class="assignment-list">
+            <div class="assignment"> HW 1 - Wireframes -  95%</div>
+            <div class="assignment"> HW 2 - Prototypes -  89%</div>
+            <div class="assignment"> Quiz 1 - HCI History -  85%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <h3>CISC 3410 - Artificial Intelligence</h3>
+        <p>Spring 2025</p>
+        <div class="course-description">
+          <div class="grade-block">Running Average: 88%</div>
+          <table class="grade-table">
+            <tr><th>Component</th><th>Weight</th><th>Average</th></tr>
+            <tr><td>Homework</td><td>35%</td><td>84%</td></tr>
+            <tr><td>Quizzes</td><td>25%</td><td>90%</td></tr>
+            <tr><td>Midterm</td><td>20%</td><td>88%</td></tr>
+            <tr><td>Final</td><td>20%</td><td>89%</td></tr>
+          </table>
+          <div class="assignment-list">
+            <div class="assignment"> HW 3 - Minimax Agent -  87%</div>
+            <div class="assignment"> HW 4 - Bayesian Networks -  81%</div>
+            <div class="assignment"> Quiz 2 - Search Algorithms -  93%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <h3>CISC 3810 - Database Systems</h3>
+        <p>Spring 2025</p>
+        <div class="course-description">
+          <div class="grade-block">Running Average: 77%</div>
+          <table class="grade-table">
+            <tr><th>Component</th><th>Weight</th><th>Average</th></tr>
+            <tr><td>Homework</td><td>40%</td><td>75%</td></tr>
+            <tr><td>Quizzes</td><td>20%</td><td>78%</td></tr>
+            <tr><td>Project</td><td>20%</td><td>79%</td></tr>
+            <tr><td>Final</td><td>20%</td><td>76%</td></tr>
+          </table>
+          <div class="assignment-list">
+            <div class="assignment"> HW 2 - Normalization -  74%</div>
+            <div class="assignment"> HW 3 - SQL Queries -  76%</div>
+            <div class="assignment"> Quiz 1 - DB Design -  83%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <h3>MATH 1201 - Calculus I</h3>
+        <p>Spring 2025</p>
+        <div class="course-description">
+          <div class="grade-block">Running Average: 65%</div>
+          <table class="grade-table">
+            <tr><th>Component</th><th>Weight</th><th>Average</th></tr>
+            <tr><td>Homework</td><td>25%</td><td>68%</td></tr>
+            <tr><td>Quizzes</td><td>25%</td><td>62%</td></tr>
+            <tr><td>Midterm</td><td>25%</td><td>63%</td></tr>
+            <tr><td>Final</td><td>25%</td><td>67%</td></tr>
+          </table>
+          <div class="assignment-list">
+            <div class="assignment"> HW 5 - Derivatives -  65%</div>
+            <div class="assignment"> HW 6 - Limits -  71%</div>
+            <div class="assignment"> Quiz 4 - Chain Rule -  58%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
