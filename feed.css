@@ -90,11 +90,13 @@ header {
     height: 60px;
     width: 100%;
     box-sizing: border-box;
+    color:purple;
 }
 
 .navbar .link{
     text-decoration: none;
-    color: black;
+    color: purple;
+    font-weight: bold;
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 5px;
