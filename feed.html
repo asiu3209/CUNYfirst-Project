@@ -5,17 +5,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grade Overview</title>
-    <link rel="stylesheet" href="grade.css">
+    <link rel="stylesheet" href="feed.css">
 </head>
 
 <body>
 
 <header>
     <div class="navbar">
+        <img src="cuny-logo.jpg" class="logo">
         <a class="link" href = "#">Feed</a>
         <a class="link" href = "cunyFirst.html">Cuny First</a>
+<<<<<<< HEAD:grade.html
         <a class="link" href = "grade.html">Grades</a>
         <a class="link" href = "index.html">Sign Out</a>
+=======
+        <a class="link" href = "feed.html">Grades</a>
+        <a class="link" href = "login.html">Sign Out</a>
+>>>>>>> 64878a4ef909183c104ef8651a5b91a5faf45d47:feed.html
     </div>
 </header>
 
@@ -27,7 +33,7 @@
         <div class="assignment-title">📄 Final Project</div>
         <div class="date">📅 2025-05-10</div>
         <div class="score pending">⏳ Pending</div>
-        <a href="#" class="button" onclick="toggleDetails(this)">Check Details</a>
+        <button class="button" onclick="toggleDetails(this)">Check Details</button>
         <div class="details hidden">
             <p><strong>Description:</strong> Submit your final implementation and documentation.</p>
             <p><strong>Status:</strong> Grade Pending</p>
@@ -40,7 +46,7 @@
         <div class="assignment-title">📄 Midterm Exam</div>
         <div class="date">📅 2025-03-15</div>
         <div class="score good">✅ 88 / 100</div>
-        <a href="#" class="button" onclick="toggleDetails(this)">Check Details</a>
+        <button class="button" onclick="toggleDetails(this)">Check Details</button>
         <div class="details hidden">
             <p><strong>Feedback:</strong> Good job overall.</p>
             <p><strong>Status:</strong> Graded</p>
@@ -52,7 +58,7 @@
         <div class="assignment-title">📄 Homework 3 - Minimax Agent</div>
         <div class="date">📅 2025-04-02</div>
         <div class="score great">✅ 95 / 100</div>
-        <a href="#" class="button" onclick="toggleDetails(this)">Check Details</a>
+        <button class="button" onclick="toggleDetails(this)">Check Details</button>
         <div class="details hidden">
             <p><strong>Feedback:</strong> Excellent work on alpha-beta pruning.</p>
             <p><strong>Status:</strong> Graded</p>
@@ -64,7 +70,7 @@
         <div class="assignment-title">📄 Project Proposal</div>
         <div class="date">📅 2025-03-27</div>
         <div class="score okay">✅ 76 / 100</div>
-        <a href="#" class="button" onclick="toggleDetails(this)">Check Details</a>
+        <button class="button" onclick="toggleDetails(this)">Check Details</button>
         <div class="details hidden">
             <p><strong>Feedback:</strong> Needs better ER diagram clarity.</p>
             <p><strong>Status:</strong> Graded</p>
@@ -76,7 +82,7 @@
         <div class="assignment-title">📄 Quiz 4</div>
         <div class="date">📅 2025-03-20</div>
         <div class="score bad">✅ 58 / 100</div>
-        <a href="#" class="button" onclick="toggleDetails(this)">Check Details</a>
+        <button class="button" onclick="toggleDetails(this)">Check Details</button>
         <div class="details hidden">
             <p><strong>Feedback:</strong> You need to review limits and derivatives.</p>
             <p><strong>Status:</strong> Graded</p>
@@ -84,6 +90,6 @@
     </div>
 </main>
 
-<script src="grade.js"></script>
+<script src="feed.js"></script>
 </body>
 </html>

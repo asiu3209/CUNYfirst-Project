@@ -1,21 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="blackboardstyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackboard UI</title>
+  <link rel="stylesheet" href="bbstyle.css" />
+  <style>
+    .course-description {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      margin-top: 10px;
+      color: #333;
+      background-color: #f0f0f0;
+      padding: 0 10px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .course-description.show {
+      max-height: 800px;
+      padding: 10px;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="top">
-        <img src="cuny-logo.jpg" class="logo">
-        <div class="header1"></div>
-    </div>
+  <div class="header1">
+     <img src="cuny-logo.jpg" class="logo" alt="CUNY Logo" />
+  </div>
+
+  <div class="topbar">
     <div class="navbar">
         <a class="link" href = "#">Feed</a>
         <a class="link" href = "cunyFirst.html">Cuny First</a>
         <a class="link" href = "grade.html">Grades</a>
         <a class="link" href = "index.html">Sign Out</a>
     </div>
+  </div>
+
+  <!-- Main Course Feed -->
+  <main class="container">
+    <h2 class="section-title">📚 Your Courses</h2>
+    <div class="course-feed-grid">
+      <div class="course-card">
+        <h3>CISC 3650 - Human Computer Interaction</h3>
+        <p>Spring 2025</p>
+        <a href="#" onclick="toggleDescription(this)">View Course</a>
+        <div class="course-description">
+          <p><strong>Description:</strong> Study of human-computer interaction principles, including GUI design and user testing. Emphasis on interaction paradigms, usability testing, and adaptive interfaces. Prerequisite: CISC 3130.</p>
+          <p><strong>Class:</strong> 2147-LEC0 (Wait Listed)</p>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3>CISC 3410 - Artificial Intelligence</h3>
+        <p>Spring 2025</p>
+        <a href="#" onclick="toggleDescription(this)">View Course</a>
+        <div class="course-description">
+          <p><strong>Description:</strong> Techniques for intelligent behavior: logic, search, learning algorithms, and knowledge representation. Topics include neural networks, natural language understanding, and expert systems. Prerequisite: CISC 3130 or 21.</p>
+          <p><strong>Class:</strong> 2775-LEC0</p>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3>CISC 3810 - Database Systems</h3>
+        <p>Spring 2025</p>
+        <a href="#" onclick="toggleDescription(this)">View Course</a>
+        <div class="course-description">
+          <p><strong>Description:</strong> Fundamentals of database systems: ER modeling, relational databases, SQL, transaction management, and query optimization. Includes hands-on lab assignments. Prerequisite: CISC 3130.</p>
+          <p><strong>Class:</strong> 3882-LEC0</p>
+        </div>
+      </div>
+      <div class="course-card">
+        <h3>MATH 1201 - Calculus I</h3>
+        <p>Spring 2025</p>
+        <a href="#" onclick="toggleDescription(this)">View Course</a>
+        <div class="course-description">
+          <p><strong>Description:</strong> Introduction to limits, derivatives, and integrals with applications to science and engineering. Covers algebraic and transcendental functions, techniques of differentiation, and curve sketching. Prerequisite: Precalculus or placement test.</p>
+          <p><strong>Class:</strong> MATH-1201-LEC</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function toggleDescription(link) {
+      const desc = link.nextElementSibling;
+      desc.classList.toggle('show');
+      link.textContent = desc.classList.contains('show') ? 'Hide Details' : 'View Course';
+    }
+  </script>
 </body>
+
 </html>
