@@ -14,7 +14,7 @@ function login(){
     const errors = document.getElementsByClassName("error");
     for(let i = 0; i < username.length; i++){
         if(user === username[i] && pass === password[i]){
-            window.location.href = "log.html";
+            window.location.href = "cunyFirst.html";
             return;
         }
     }
