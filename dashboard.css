@@ -238,4 +238,24 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.back-button {
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #e3ecf5;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.back-button a:hover {
+  background-color: #cddbef;
+}
+
 
