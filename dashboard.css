@@ -118,6 +118,7 @@ body {
 }
 .card .extra {
    opacity: 1;
+  display:block;
   visibility: visible;
 }
 
