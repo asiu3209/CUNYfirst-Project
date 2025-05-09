@@ -185,3 +185,57 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.appointments-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.appointment-list h2,
+.appointment-form h2 {
+  margin-top: 1rem;
+  color: #003366;
+}
+
+.appointment-list ul,
+.appointment-form form {
+  margin-top: 0.5rem;
+}
+
+.appointment-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #f2f6fc;
+  border-left: 4px solid #003366;
+}
+
+.appointment-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form label {
+  margin-top: 1rem;
+}
+
+.appointment-form input,
+.appointment-form select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.appointment-form button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
