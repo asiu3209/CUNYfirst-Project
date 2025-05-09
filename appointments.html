@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appointments</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1><i class="fas fa-calendar-alt"></i> Appointments</h1>
+  </header>
+
+  <main class="appointments-container">
+    <section class="appointment-list">
+      <h2>Upcoming Appointments</h2>
+      <ul>
+        <li>
+          <strong>Advising:</strong> May 2, 2025 – 2:00 PM with Dr. Smith
+        </li>
+        <li>
+          <strong>Career Counseling:</strong> May 12, 2025 – 11:00 AM with Ms. Brown
+        </li>
+      </ul>
+
+      <h2>Past Appointments</h2>
+      <ul>
+        <li>
+          <strong>Financial Aid:</strong> March 15, 2025 – 1:00 PM with Fendja Larivaux
+        </li>
+      </ul>
+    </section>
+
+    <section class="appointment-form">
+      <h2>Schedule a New Appointment</h2>
+      <form>
+        <label for="type">Appointment Type:</label>
+        <select id="type">
+          <option>Advising</option>
+          <option>Career Counseling</option>
+          <option>Financial Aid</option>
+        </select>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" required>
+
+        <label for="staff">With:</label>
+        <input type="text" id="staff" placeholder="e.g. Dr. Johnson" required>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
