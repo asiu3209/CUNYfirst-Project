@@ -103,10 +103,7 @@ body {
 .card p {
   color: #555;
 }
-.card .extra {
-  display: block; 
-  margin-top: 0.5rem;
-}
+
 
 .extra {
   opacity: 0;
@@ -118,6 +115,10 @@ body {
   font-size: 14px;
   text-align: left;
   transition: opacity 0.3s ease;
+}
+.card .extra {
+   opacity: 1;
+  visibility: visible;
 }
 
 .card {
