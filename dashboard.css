@@ -109,17 +109,15 @@ body {
 .extra {
   opacity: 0;
   visibility: hidden;
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  right: 15px;
   font-size: 14px;
   text-align: left;
+  color: #333;
   transition: opacity 0.3s ease;
+  pointer-events: none;
 }
-.card .extra {
-   opacity: 1;
-  display:block;
+
+.card:hover .extra {
+  opacity: 1;
   visibility: visible;
 }
 
